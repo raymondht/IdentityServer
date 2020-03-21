@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{737D2E9A-3F5E-4A29-969F-DAB22CD502E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiOne", "ApiOne\ApiOne.csproj", "{1078F21C-CF07-4F6A-99AC-16F37A21CC9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiOne", "ApiOne\ApiOne.csproj", "{1078F21C-CF07-4F6A-99AC-16F37A21CC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTwo", "ApiTwo\ApiTwo.csproj", "{8733B58E-9D48-4B20-8462-E4383C048059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1078F21C-CF07-4F6A-99AC-16F37A21CC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1078F21C-CF07-4F6A-99AC-16F37A21CC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1078F21C-CF07-4F6A-99AC-16F37A21CC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8733B58E-9D48-4B20-8462-E4383C048059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8733B58E-9D48-4B20-8462-E4383C048059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8733B58E-9D48-4B20-8462-E4383C048059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8733B58E-9D48-4B20-8462-E4383C048059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

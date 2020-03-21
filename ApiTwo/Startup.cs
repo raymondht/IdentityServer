@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ApiOne
+namespace ApiTwo
 {
     public class Startup
     {
@@ -20,8 +20,11 @@ namespace ApiOne
                 .AddJwtBearer("Bearer", config => {
                     config.Authority = "https://localhost:44330/";
 
-                    config.Audience = "ApiOne";
+                    config.Audience = "ApiTwo";
                 });
+
+            services.AddHttpClient();
+
             services.AddControllers();
         }
 
